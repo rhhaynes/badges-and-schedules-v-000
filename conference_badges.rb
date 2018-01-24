@@ -6,6 +6,6 @@ def batch_badge_creator(names)
   names.collect{|i| badge_maker(i)}
 end
 
-def assign_rooms
-  
+def assign_rooms(names)
+  names.collect{|i| }
 end
