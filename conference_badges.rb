@@ -13,7 +13,8 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  batch_badge_creator(names)
-  rooms = assign_rooms(names)
-  rooms.each{|i| puts i}
+  msg_names = batch_badge_creator(names)
+  msg_names.each{|i| puts i}
+  msg_rooms = assign_rooms(names)
+  msg_rooms.each{|i| puts i}
 end
