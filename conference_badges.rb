@@ -8,6 +8,6 @@ end
 
 def assign_rooms(names)
   rooms = names.each_with_index { |name, i|
-    names_new << "Hello, #{name}! You'll be assigned to room #{i+1}!"
-    }
+    "Hello, #{name}! You'll be assigned to room #{i+1}!"
+  }
 end
